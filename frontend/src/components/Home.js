@@ -57,7 +57,7 @@ export default function Home(){
                 </header>
                
 
-                <section className=" slider_section position-relative">
+                <section className="slider_section position-relative">
                     <div className="container">
                         <div className="row">
                             <div className="col-md-7">
@@ -85,17 +85,7 @@ export default function Home(){
                                     <div className="carousel-inner">
                                         <div className="carousel-item active">
                                             <div className="img-box">
-                                                <img src="images/slider-img.png" alt="" />
-                                            </div>
-                                        </div>
-                                        <div className="carousel-item">
-                                            <div className="img-box">
-                                                <img src="images/slider-img.png" alt="" />
-                                            </div>
-                                        </div>
-                                        <div className="carousel-item">
-                                            <div className="img-box">
-                                                <img src="images/slider-img.png" alt="" />
+                                                <img src="images/chat.png" alt="" />
                                             </div>
                                         </div>
                                     </div>
@@ -136,9 +126,8 @@ export default function Home(){
                                 </div>
                                 <div className="detail-box">
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                        do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                        Ut enim ad minim veniam
+                                        Anywhere in the world just open any browser and access this chat application.
+                                        
                                     </p>
                                 </div>
                             </div>
@@ -155,9 +144,9 @@ export default function Home(){
                                 </div>
                                 <div className="detail-box">
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                        do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                        Ut enim ad minim veniam
+                                        One of the main feature is that a user can select an avatar as a profile.
+                                        Uses socket.io for implementing chatting feature.
+                                        Uses MongoDB for database needs. 
                                     </p>
                                 </div>
                             </div>
@@ -184,7 +173,6 @@ export default function Home(){
             </section>
 
 
-
             <section className="about_section layout_padding">
                 <div className="container">
                     <div className="heading_container ">
@@ -193,8 +181,8 @@ export default function Home(){
                         </h2>
                     </div>
                     <div className="rows">
-                        <div className="col">
-                            <img className = "member_images" src="images/client.png" alt="Snow" />
+                    <div className="col">
+                            <img className = "member_images" src="images/mohit.jpg" alt="Snow" />
                             <h6><a href="https://www.linkedin.com/in/mohit3301/">Mohit Verma</a></h6> 
                         </div>
                         <div className="col">
@@ -202,61 +190,20 @@ export default function Home(){
                             <h6> <a href="https://www.linkedin.com/in/ramay-maheshwari-2a6524217/">Ramay Maheshwari </a></h6>
                         </div>
                         <div className="col">
-                            <img className = "member_images" src="images/client.png" alt="Snow" />
+                            <img className = "member_images" src="images/dipesh.jpeg" alt="Snow" />
                             <h6> <a href="https://www.linkedin.com/in/dipesh-sharma-b38b12218/">Dipesh Sharma</a></h6>
                         </div>
                         <div className="col">
-                            <img className = "member_images" src="images/client.png" alt="Snow" />
+                            <img className = "member_images" src="images/vish.jpg" alt="Snow" />
                             <h6><a href="https://www.linkedin.com/in/vishwasgarg44/">Vishwas Garg</a> </h6>
                         </div>
                         <div className="col">
-                            <img className = "member_images" src="images/client.png" alt="Snow" />
+                            <img className = "member_images" src="images/kanishk2.jpg" alt="Snow" />
                             <h6> <a href = "https://www.linkedin.com/in/kanishk-singla-0a9667218/">Kanishk Singla</a> </h6>
                         </div>  
                     </div>
                 </div>
             </section>
-
-{/*        
-            <section className="client_section layout_margin">
-                <div className="container">
-                    <div className="heading_container">
-                        <h2>
-                            Check what people say About us!
-                        </h2>
-                    </div>
-                    <div className="client_container layout_padding2-top">
-                        <div className="client-id">
-                            <div className="img-box">
-                                <img src="images/client.png" alt="" />
-                            </div>
-                            <div className="name">
-                                <img src="images/quote.png" alt="" />
-                                <h6>
-                                    Sandy Delex
-                                </h6>
-                                <p>
-                                    Reprehenderit
-                                </p>
-                            </div>
-                        </div>
-                        <div className="client-detail">
-                            <p>
-                                dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                veniam, quis nostrud esse cillum
-                            </p>
-                        </div>
-                        <div className="d-flex justify-content-end">
-                            <a href="">
-                                Read More
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </section> */}
-
-
 
             <section className="contact_section layout_padding">
                 <div className="container">
@@ -295,7 +242,7 @@ export default function Home(){
                         </div>
                         <div className="col-md-6">
                             <div className="contact_img-box">
-                                <img src="images/contact-img.png" alt=""/>
+                                <img src="images/chat.png" alt=""/>
                             </div>
                         </div>
                     </div>

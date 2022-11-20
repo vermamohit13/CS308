@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 import { useNavigate } from "react-router-dom";
 import { BiPowerOff } from "react-icons/bi";
 import styled from "styled-components";
@@ -13,12 +14,12 @@ export default function Logout() {
     const data = await axios.get(`${logoutRoute}/${id}`);
     if (data.status === 200) {
       localStorage.clear();
-      navigate("/home");
+      navigate("/");
     }
   };
   return (
     <Button onClick={handleClick}>
-      <BiPowerOff />
+      <BiPowerOff/>
     </Button>
   );
 }

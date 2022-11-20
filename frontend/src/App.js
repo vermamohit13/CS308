@@ -12,8 +12,8 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-          <Route path="/home" element={<Home />} />
-          <Route path="/" element={<Chat />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/chat" element={<Chat />} />
           <Route path="/about" element={<About />} />
           <Route path="/feature" element={<Feature />} />
           <Route path="/setAvatar" element={<SetAvatar />} />

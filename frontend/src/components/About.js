@@ -57,29 +57,25 @@ export default function About() {
                     
                     <div className="rows">
                         <div className="col">
-                            <img className = "member_images" src="images/client.png" alt="Snow" />
+                            <img className = "member_images" src="images/mohit.jpg" alt="Snow" />
                             <h6><a href="https://www.linkedin.com/in/mohit3301/">Mohit Verma</a></h6> 
                         </div>
                         <div className="col">
-                            <img className = "member_images" src="images/client.png" alt="Snow" />
+                            <img className = "member_images" src="images/ramay.jpg" alt="Snow" />
                             <h6> <a href="https://www.linkedin.com/in/ramay-maheshwari-2a6524217/">Ramay Maheshwari </a></h6>
                         </div>
                         <div className="col">
-                            <img className = "member_images" src="images/client.png" alt="Snow" />
+                            <img className = "member_images" src="images/dipesh.jpeg" alt="Snow" />
                             <h6> <a href="https://www.linkedin.com/in/dipesh-sharma-b38b12218/">Dipesh Sharma</a></h6>
                         </div>
                         <div className="col">
-                            <img className = "member_images" src="images/client.png" alt="Snow" />
+                            <img className = "member_images" src="images/vish.jpg" alt="Snow" />
                             <h6><a href="https://www.linkedin.com/in/vishwasgarg44/">Vishwas Garg</a> </h6>
                         </div>
                         <div className="col">
-                            <img className = "member_images" src="images/client.png" alt="Snow" />
+                            <img className = "member_images" src="images/kanishk2.jpg" alt="Snow" />
                             <h6> <a href = "https://www.linkedin.com/in/kanishk-singla-0a9667218/">Kanishk Singla</a> </h6>
-                        </div>
-                        {/* <div className="col">
-                            <img className = "member_images" src="images/client.png" alt="Snow" />
-                            <h6> Kanishk Singla </h6>
-                        </div> */}
+                        </div>  
                     </div>
                     
                 </div>
