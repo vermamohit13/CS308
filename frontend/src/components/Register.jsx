@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import styled from "styled-components";
 import { useNavigate, Link } from "react-router-dom";
-import Logo from "../assets/logo.svg";
+
 
 export default function Register() {
   const navigate = useNavigate();
@@ -35,7 +35,7 @@ export default function Register() {
       <FormContainer>
         <form action="" onSubmit={(event) => handleSubmit(event)}>
           <div className="brand">
-            <img src={Logo} alt="logo" />
+          <img src="images/logo.svg" alt="logo" />
             <h1>snappy</h1>
           </div>
           <input
