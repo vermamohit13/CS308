@@ -61,7 +61,7 @@ body {
   height: 100vh;
   position: relative;
   background: -webkit-gradient(linear, left top, right top, color-stop(50%, #f2f7fd), color-stop(45%, #1d1e31));
-  background: linear-gradient(to right, #f2f7fd 50%, #1d1e31 45%);
+  background: linear-gradient(to right, #f2f7fd 55%, #1d1e31 45%);
 }
 
 .hero_area2 {
@@ -323,12 +323,14 @@ a:focus {
 }
 
 .slider_section .img-box img {
-  height: 100%;
+  height: 250px;
+  width: 480px;
 }
+
 
 .slider_section .carousel-control-prev,
 .slider_section .carousel-control-next {
-  width: 60px;
+  width: 0px;
   height: 60px;
   border-radius: 100%;
   left: 50%;
@@ -470,8 +472,8 @@ a:focus {
 
 .about_section .member_images{
   position: relative;
-  height: 150px;
-  width: 120px;
+  height: 200px;
+  width: 150px;
 }
 
 .about_section .detail-box {
