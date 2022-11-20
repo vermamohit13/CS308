@@ -6,12 +6,14 @@ import Feature from './components/Feature';
 import Contact from './components/Contact';
 import Login from "./components/Login";
 import Register from "./components/Register";
-
+import SetAvatar  from "./components/SetAvatar";
+import Chat from "./components/Chat";
 export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Chat />} />
           <Route path="/about" element={<About />} />
           <Route path="/feature" element={<Feature />} />
           <Route path="/setAvatar" element={<SetAvatar />} />
