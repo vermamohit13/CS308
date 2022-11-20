@@ -3,6 +3,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const cors = require ("cors");
 const socket_io = require("socket.io");
+const authRoutes = require("./routes/auth");
 
 // Creating an express app
 const app = express();
@@ -23,6 +24,7 @@ mongoose.connect(process.env.MongoDBURL,
 app.use(cors());
 app.use(express.json())
 
+app.use("/api/auth", authRoutes);
 // Staring Server
 const server = app.listen(process.env.PORT, ()=> 
                     console.log(`Server Listening on ${process.env.PORT}`));
